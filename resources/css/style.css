@@ -1,0 +1,129 @@
+html{
+  font-size: 18px;
+  line-height: 1.4;
+}
+.body{
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+}
+.container{
+  width: 960px;
+}
+.banner{
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner .container{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+}
+.logo img{
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  vertical-align: middle;
+}
+.nav{
+  padding-bottom: 1rem;
+}
+
+ul{
+  list-style-type: none;
+}
+li{
+  float: left;
+  padding-right: 2rem;
+}
+.tagline{
+  background-color: white;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  position: relative;
+  left: 12rem;
+}
+.selling-points{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+.selling-points .container{
+  display: flex;
+  height: 8rem;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.point{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+.image-text{
+
+}
+*#paper{
+  width: 3.5rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+#ruler{
+  width: 4rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+#truck{
+  width: 4rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.business-info{
+  display: flex;
+  justify-content: center;
+}
+.business-info .container{
+  display: flex;
+  margin-bottom: 5rem;
+}
+p{
+  width: 35%;
+}
+.title{
+  padding-left: 1.25rem;
+  width: 10rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: cadetblue;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+footer .container{
+  display: flex;
+  background-color: azure;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.copyright img{
+  padding-left: 4rem;
+  height: 1.5rem;
+  padding-right: 1rem;
+  vertical-align: middle;
+}
